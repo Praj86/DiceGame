@@ -7,7 +7,7 @@ A simple, interactive dice game created using HTML, CSS, and JavaScript. This ga
 
 ## Demo
 
-Play the game online [here](https://yourusername.github.io/DiceGame/).
+Play the game online [here](https://Praj86.github.io/DiceGame/).
 
 ## Table of Contents
 
