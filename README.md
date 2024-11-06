@@ -11,15 +11,37 @@ Play the game online [here](https://yourusername.github.io/DiceGame/).
 
 ## Table of Contents
 
-- [Project Structure](#project-structure)
+
 - [How It Works](#how-it-works)
-- [Getting Started](#getting-started)
-- [Publishing on GitHub Pages](#publishing-on-github-pages)
 - [Code Overview](#code-overview)
 - [Customization](#customization)
 - [Technologies Used](#technologies-used)
-- [License](#license)
 - [Author](#author)
 
-## Project Structure
 
+## How It Works
+
+- Each time the "Re-Roll" button is clicked, both dice roll randomly.
+- Random numbers (1 to 6) determine the dice images displayed for each player.
+- The winner is displayed at the top based on the higher roll. If both rolls are equal, it displays "Draw!".
+
+## Code Overview
+
+- **`randomDice()` function**: Generates a random number between 1 and 6.
+- **`randomDiceImage()` function**: Updates the dice images based on random numbers and displays the winner or if it’s a draw.
+- **Event Listener for "Re-Roll" Button**: Calls `randomDiceImage()` to re-roll the dice.
+
+## Customization
+
+- Modify the images in the `/images` folder if you'd like different dice faces.
+- Adjust colors or styles in `styles.css` to personalize the game's appearance.
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+
+## Author
+
+Created by [Praj86](https://github.com/Praj86).
